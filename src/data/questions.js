@@ -1,0 +1,88 @@
+export const DAILY_LIMIT = 12;
+
+export const QUESTIONS = [
+  { q: "A free Saturday afternoon, no plans. What pulls you in?", options: [
+    ["Sketch, write, or make something just because", "Creator"],
+    ["Untangle a messy problem — a puzzle, a plan, anything knotted", "Problem-Solver"],
+    ["Take a gadget apart to see how it works, then rebuild it better", "Builder"],
+    ["Check in on a friend who's had a rough week", "Helper"],
+    ["Fall into a rabbit hole reading about something you're curious about", "Thinker"],
+  ]},
+  { q: "A group project just got assigned. Where do you naturally land?", options: [
+    ["Building the actual thing the group is presenting", "Builder"],
+    ["Making the presentation look and feel right", "Creator"],
+    ["Keeping the group on the same page and everyone included", "Helper"],
+    ["Figuring out the plan and dividing the work efficiently", "Problem-Solver"],
+    ["Researching and fact-checking the content", "Thinker"],
+  ]},
+  { q: "Something breaks unexpectedly — a plan, a device, a friendship. First instinct?", options: [
+    ["Map out the fastest path to a fix", "Problem-Solver"],
+    ["Get your hands on it and start fixing", "Builder"],
+    ["Figure out exactly why it broke", "Thinker"],
+    ["Reimagine it differently rather than patch it", "Creator"],
+    ["Check how everyone involved is feeling about it", "Helper"],
+  ]},
+  { q: "A friend asks for advice on something they're stuck on. You tend to:", options: [
+    ["Ask a lot of questions before offering an opinion", "Thinker"],
+    ["Listen first, before saying anything", "Helper"],
+    ["Suggest one concrete next step they can build on", "Builder"],
+    ["Break their problem into smaller, solvable pieces", "Problem-Solver"],
+    ["Help them imagine what it could look like", "Creator"],
+  ]},
+  { q: "In class, you're most alert when:", options: [
+    ["There's a real case or problem to solve", "Problem-Solver"],
+    ["The teacher opens space to imagine or interpret", "Creator"],
+    ["You get to build, prototype, or apply something hands-on", "Builder"],
+    ["Discussion turns to people, society, or ethics", "Helper"],
+    ["A new theory challenges how you think", "Thinker"],
+  ]},
+  { q: "You finish a big task early. What do you do with the extra time?", options: [
+    ["Offer to help someone else who's behind", "Helper"],
+    ["Polish it — make it more expressive or beautiful", "Creator"],
+    ["Look for what could quietly go wrong later", "Problem-Solver"],
+    ["Stress-test it or improve how it actually works", "Builder"],
+    ["Research if there was a better way you missed", "Thinker"],
+  ]},
+  { q: "Pick the compliment you'd rather receive:", options: [
+    ["\"You really understand this deeply.\"", "Thinker"],
+    ["\"You found the smartest way through that.\"", "Problem-Solver"],
+    ["\"That was so original.\"", "Creator"],
+    ["\"You made me feel understood.\"", "Helper"],
+    ["\"That actually works really well.\"", "Builder"],
+  ]},
+  { q: "When you imagine your future work, what matters most?", options: [
+    ["Building something people actually use", "Builder"],
+    ["Solving problems that genuinely matter", "Problem-Solver"],
+    ["Making someone else's life better, directly", "Helper"],
+    ["Understanding how the world really works", "Thinker"],
+    ["Making something that didn't exist before", "Creator"],
+  ]},
+  { q: "A new app or tool is confusing at first. You:", options: [
+    ["Think about who might struggle to use it", "Helper"],
+    ["Read up on why it was designed that way", "Thinker"],
+    ["Notice what feels clunky or ugly about it", "Creator"],
+    ["Poke around until you understand how it's built", "Builder"],
+    ["Find a workaround to get what you need done anyway", "Problem-Solver"],
+  ]},
+  { q: "Your ideal \"win\" at the end of a project:", options: [
+    ["A hard problem, finally cracked", "Problem-Solver"],
+    ["Something that works reliably, start to finish", "Builder"],
+    ["Something people call beautiful or moving", "Creator"],
+    ["A new insight nobody had noticed before", "Thinker"],
+    ["Someone genuinely thanking you for the difference you made", "Helper"],
+  ]},
+  { q: "Plans fall apart last-minute. You:", options: [
+    ["Check on how everyone's holding up first", "Helper"],
+    ["Calmly triage what needs fixing first", "Problem-Solver"],
+    ["Rebuild the plan piece by piece", "Builder"],
+    ["Reimagine a new direction on the fly", "Creator"],
+    ["Step back to understand what actually went wrong", "Thinker"],
+  ]},
+  { q: "If you had to teach something for a day, you'd choose:", options: [
+    ["Strategy, logic, or problem-solving methods", "Problem-Solver"],
+    ["A subject you find intellectually fascinating", "Thinker"],
+    ["A practical skill — building, coding, fixing", "Builder"],
+    ["Something about people, kindness, or communication", "Helper"],
+    ["A creative skill — art, writing, music, design", "Creator"],
+  ]},
+];
