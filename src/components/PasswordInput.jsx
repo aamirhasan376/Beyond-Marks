@@ -7,7 +7,7 @@ export default function PasswordInput({ id, className = "", wrapperStyle, ...pro
   const toggleVisibility = () => {
     setShowPassword((prev) => !prev);
   };
-
+console.log('Check')
   return (
     <div className="password-input-wrapper" style={wrapperStyle}>
       <input
