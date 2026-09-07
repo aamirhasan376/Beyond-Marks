@@ -34,7 +34,7 @@ describe("Beyond Marks smoke test", () => {
     renderApp("/signup");
     fireEvent.change(screen.getByLabelText(/Name/i), { target: { value: "Test User" } });
     fireEvent.change(screen.getByLabelText(/Email/i), { target: { value: "test@example.com" } });
-    fireEvent.change(screen.getByLabelText(/Password/i), { target: { value: "password123" } });
+    fireEvent.change(screen.getByLabelText(/Password/i, { selector: "input" }), { target: { value: "password123" } });
     fireEvent.click(screen.getByRole("button", { name: /Create account/i }));
 
     expect(await screen.findByText(/Welcome back/i)).toBeTruthy();

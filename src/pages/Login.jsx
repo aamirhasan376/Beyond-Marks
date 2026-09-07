@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate, Navigate } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { useAuth } from "../context/AuthContext.jsx";
+import PasswordInput from "../components/PasswordInput.jsx";
 
 export default function Login() {
   const { user, login, error } = useAuth();
@@ -30,7 +31,7 @@ export default function Login() {
           </label>
           <label style={{ fontSize: 13, fontWeight: 600, display: "block", marginTop: 14 }}>
             Password
-            <input className="input-field" type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
+            <PasswordInput value={password} onChange={(e) => setPassword(e.target.value)} />
           </label>
 
           {error && <p style={{ color: "var(--danger)", fontSize: 13.5, marginTop: 12 }}>{error}</p>}
